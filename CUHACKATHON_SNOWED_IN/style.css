@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-back{
+    background-color: #05386B;
+    opacity: 0.8;
+}
+.navbar-brand{
+    color:  rgba(255,255,255,0.5);
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-link{
+    color: rgba(255,255,255,0.5);
+}
+.nav-link:hover{
+    color: white;
+}
+.navbar-toggler{
+    color: white;
+    outline: none!important;
+}
+/*till here*/
+/*Hero Section*/
+#hero{
+    width: 100%;
+    height: 80vh;
+    background: url("./image/Doc.jpg") center;
+    background-size: cover;
+    position: relative;
+}
+#hero .container{
+    padding-top: 80px;
+
+}
+#hero::before{
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#hero h1{
+    margin: 0 0 10px 0;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 55px;
+    color: white;
+}
+#hero h2{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+}
+.main-btn{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    display: inline-block;
+    padding: 9px 25px;
+    border-radius: 14px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid white;
+    color: white;
+}
+.main-btn:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+/*about Us*/
+#about1{
+    width: 100%;
+    height: 40vh;
+    background: url("./image/helping\ hand.png") center;
+    background-size: cover;
+    position: relative; 
+       
+}
+#about1::before{
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    color: white;
+    left: 0;
+    right: 0;
+}
+#about1 h1{
+    margin: 0 0 10px 0;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 55px;
+    color: white;
+    padding-bottom: 10px;
+}
+#about1 h2{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+/*contact*/
+#contact1{
+    width: 100%;
+    height: 40vh;
+    background: url("./image/contactus_image.png") center;
+    background-size: cover;
+    position: relative; 
+       
+}
+#contact1::before{
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    color: white;
+    left: 0;
+    right: 0;
+}
+#contact1 h1{
+    margin: 0 0 10px 0;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 55px;
+    color: white;
+    padding-bottom: 10px;
+}
+#contact1 h2{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+.submitMovieB:hover{
+    color: azure;
+    transition: ease-in-out 0.5s;
+}

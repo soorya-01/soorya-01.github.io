@@ -1,0 +1,107 @@
+#section1{
+    background: url("./image/button_bg.png") center;
+    background-size: cover;
+    position: relative;
+}
+/*opacity*/
+#section1::before{
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    color: white;
+    left: 0;
+    right: 0;
+}
+#list {
+    font-size: 5vh;
+    font-variant: bold;
+}
+.container{
+    color: black;
+}
+#section1 .container {
+    padding-top: 80px;
+}
+
+#workout1 {
+    font-size: 4vh;
+}
+
+#workout2 {
+    font-size: 4vh;
+}
+
+#workout3 {
+    font-size: 4vh;
+}
+
+.description {
+    font-size: 3vh;
+}
+
+p {
+    font-size: 3vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-back {
+    background-color: #05386B;
+    opacity: 0.8;
+}
+
+.navbar-brand {
+    color: rgba(255,255,255,0.5);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+    .navbar-brand:hover {
+        color: white;
+    }
+
+.nav-link {
+    color: rgba(255,255,255,0.5);
+}
+
+    .nav-link:hover {
+        color: white;
+    }
+
+.navbar-toggler {
+    color: white;
+    outline: none !important;
+}
+
+/*button*/
+.main-btn{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    display: inline-block;
+    padding: 9px 25px;
+    border-radius: 14px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid white;
+    color: white;
+}
+.main-btn:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
